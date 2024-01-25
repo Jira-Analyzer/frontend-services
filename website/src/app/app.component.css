@@ -1,11 +1,12 @@
-.navbar .navbar-brand {
-  background-color: #2ed185;
+.navbar {
+  background-color: #ffffff;
 }
 .navbar-brand {
   font-size: 20px;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 .navbar-nav .nav-item .nav-link {
-  color:rgb(255, 255, 255);
+  color:rgb(29, 184, 106);
   font-size: 20px;
   font-family: 'Mukta Mahee', sans-serif;
 }
@@ -13,8 +14,4 @@
   color:rgb(0, 106, 72);
   font-size: 20px;
   font-family: 'Mukta Mahee', sans-serif;
-}
-
-.search {
-  color:#00baa1;
 }

@@ -91,7 +91,36 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "karmaConfig": "karma.conf.js"
+          }
+        },
+        "nightwatch-run": {
+          "builder": "@nightwatch/schematics:nightwatch",
+          "options": {
+            "devServerTarget": "website:serve",
+            "tsConfig": "../nightwatch/tsconfig.e2e.json",
+            "config": "./nightwatch.conf.js",
+            "env": "chrome"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "website:serve:production"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@nightwatch/schematics:nightwatch",
+          "options": {
+            "devServerTarget": "website:serve",
+            "tsConfig": "../nightwatch/tsconfig.e2e.json",
+            "config": "./nightwatch.conf.js",
+            "env": "chrome"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "website:serve:production"
+            }
           }
         }
       }
