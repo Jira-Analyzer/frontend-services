@@ -1,0 +1,11 @@
+.navbar-expand-md {
+  color:rgb(29, 184, 106);
+  font-size: 20px;
+  font-family: 'Mukta Mahee', sans-serif;
+}
+
+.navbar-expand-md .navbar-container .navbar-nav .nav-item .nav-link:hover {
+  color:rgb(0, 106, 72);
+  font-size: 20px;
+  font-family: 'Mukta Mahee', sans-serif;
+}
