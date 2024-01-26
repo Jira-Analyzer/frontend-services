@@ -5,8 +5,8 @@ import { PageInfo } from '../../models/pageInfo.model';
 
 @Component({
   selector: 'app-project-page',
-  templateUrl: './project-page.component.html',
-  styleUrls: ['./project-page.component.css']
+  templateUrl: './proj.component.html',
+  styleUrls: ['./proj.component.css']
 })
 export class ProjectPageComponent implements OnInit {
   projects: IProj[] = []
