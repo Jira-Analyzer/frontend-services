@@ -1,0 +1,7 @@
+.headering {
+  padding: 10px 50px 20px;
+  background: rgb(79,0,133);
+  background: linear-gradient(0deg, rgb(53, 0, 89) 0%, rgb(98, 0, 163) 40%, rgba(177,0,255,1) 100%);
+  font-family: 'Mukta Mahee', sans-serif;
+  color:aliceblue;
+}

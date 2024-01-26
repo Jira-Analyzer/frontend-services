@@ -1,0 +1,39 @@
+.navbar-expand-md {
+  background-color: rgb(51, 0, 92);
+  font-size: 20px;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-style:initial;
+}
+
+.navbar-expand-md ul.nav li.nav-item a.nav-link {
+  color: rgb(105, 209, 0) !important;
+  transition: color 0.3s, transform 0.3s, text-shadow 0.3s;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-expand-md ul.nav li.nav-item a.nav-link:hover {
+  color: rgb(167, 230, 18) !important;
+  transform: translateY(-5px);
+  text-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+}
+
+.navbar-expand-md ul.nav li.nav-item {
+  position: relative;
+}
+
+.navbar-expand-md ul.nav li.nav-item a.nav-link {
+  color: #91ef0c; /* Set the default text color */
+  transition: color 0.3s, transform 0.3s;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-expand-md ul.nav li.nav-item a.nav-link:hover {
+  color: #82ff0e; /* Set the hover text color */
+  transform: translateY(-5px); /* Raise the button on hover */
+}
+
+.navbar-expand-md ul.nav li.nav-item a.nav-link:active {
+  transform: scale(0.95); /* Add a tap effect by scaling down the text on tap */
+}
